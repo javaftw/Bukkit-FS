@@ -11,4 +11,4 @@ $ mvn package
 Plugin will be found in the target/ directory.
 
 # Usage
-For the full list of commands run `/fs` or `/filesystem`
+For the full list of commands run `/fs` or `/filesystem` (in game, not a on a terminal)
