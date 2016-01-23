@@ -1,13 +1,9 @@
-package me.javaftw.bukkitfs;
-
-import org.bukkit.plugin.java.JavaPlugin;
-
 /**
  * Bukkit-FS by Tarun Boddupalli
  * <p/>
  * The MIT License (MIT)
  * <p/>
- * Copyright (c) 2015 Tarun Boddupalli
+ * Copyright (c) 2015-2016 Tarun Boddupalli
  * <p/>
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -27,11 +23,16 @@ import org.bukkit.plugin.java.JavaPlugin;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
+package me.tarunb.bukkitfs;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
 public class BukkitFS extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("fs").setExecutor(new FileSystemCommand(this));
+        getCommand("fs").setExecutor(new FileSystemCommand());
     }
 
 

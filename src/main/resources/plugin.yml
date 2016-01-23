@@ -1,0 +1,9 @@
+name: Bukkit-FS
+version: ${project.version}
+main: me.tarunb.bukkitfs.BukkitFS
+
+commands:
+    fs:
+        usage: /fs
+        description: Root command for File System
+        aliases: [filesystem]

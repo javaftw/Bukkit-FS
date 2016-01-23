@@ -218,3 +218,6 @@ pip-log.txt
 # IntelliJ
 .idea/**
 *.iml
+
+# Maven
+target/**
